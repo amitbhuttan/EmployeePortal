@@ -1,0 +1,28 @@
+<WorkflowConfig Version="15.0.0.4787">
+	<Template BaseID="{F55B43F8-2236-41C2-ACE8-F887072B6834}" DocLibID="{DDD98C79-5C20-498C-887F-CFDAA51DAE8C}" XomlHref="Workflows/Send to Assigned Person Changes/Send to Assigned Person Changes.xoml" XomlVersion="V8.0" RulesHref="Workflows/Send to Assigned Person Changes/Send to Assigned Person Changes.xoml.rules" RulesVersion="V8.0" TaskContentType="0x01080100C9C9515DE4E24001905074F980F93160" Category="List" Name="Send to Assigned Person Changes" Description="" LastEditMode="TextBased" WFPlatformVersion="3.5" SupportStageDesign="false" Draft="true"/>
+	<Association ListID="{90FF1568-2047-4E1E-948A-7BEC957755AA}" StartManually="true" TaskListID="{31670C5B-9D09-4B07-8898-CC28A8D6A63F}" HistoryListID="{8265F030-932E-4251-999D-75774D4A0C58}" StartOnCreate="true" StartOnChange="true"/>
+	<ContentTypes/>
+	<Initiation URL="~layouts/IniWrkflIP.aspx">
+		<Fields/>
+		<Parameters/>
+		<DefaultData>
+			<dfs:myFields xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dms="http://schemas.microsoft.com/office/2009/documentManagement/types" xmlns:dfs="http://schemas.microsoft.com/office/infopath/2003/dataFormSolution" xmlns:q="http://schemas.microsoft.com/office/infopath/2009/WSSList/queryFields" xmlns:d="http://schemas.microsoft.com/office/infopath/2009/WSSList/dataFields" xmlns:ma="http://schemas.microsoft.com/office/2009/metadata/properties/metaAttributes" xmlns:pc="http://schemas.microsoft.com/office/infopath/2007/PartnerControls" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+				<dfs:queryFields/>
+				<dfs:dataFields>
+					<d:SharePointListItem_RW/>
+				</dfs:dataFields>
+			</dfs:myFields>
+		</DefaultData>
+	</Initiation>
+	<Extended>
+		<Fields/>
+	</Extended>
+	<MetaData>
+		<ExtendedStatusColumnValues>
+			<StatusColumnValue>Canceled</StatusColumnValue>
+			<StatusColumnValue>Approved</StatusColumnValue>
+			<StatusColumnValue>Rejected</StatusColumnValue>
+		</ExtendedStatusColumnValues>
+		<Instantiation_FormURI Version="V4.0">Workflows/Send to Assigned Person Changes/Send to Assigned Person Changes.xsn</Instantiation_FormURI>
+	</MetaData>
+</WorkflowConfig>
